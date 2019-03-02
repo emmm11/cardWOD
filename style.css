@@ -1,0 +1,74 @@
+
+.mainHeader {
+    background-color: #34495E;
+    padding: 50px;
+}
+
+i {
+    position: relative;
+    color: black;
+}
+
+#homeButton:hover {
+    cursor: pointer;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#menuIcon {
+    float: left;
+}
+
+.mainBody {
+    text-align: center;
+}
+
+.appBox {
+    border: solid black 2px;
+    width: 50%;
+    display: inline-block;
+    margin: 50px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Remove outline on button click */
+*:focus {outline:none}
+
+#workoutList {
+    text-align: left;
+}
