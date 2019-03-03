@@ -75,7 +75,7 @@ button:hover {
 
 /* workout styling */
 #mainBody {
-    top: 250px;
+    top: 180px;
     position: relative;
     margin: 20px;
     font-family: 'Roboto', sans-serif;
@@ -83,7 +83,7 @@ button:hover {
 }
 
 .nextButton {
-    top: 250px;
+    top: 180px;
     position: relative;
     background-color: grey;
     font-size: 15px;
