@@ -25,10 +25,11 @@ function shuffle(workout) {
 
 // start workout function
 function startWorkout () {
-    document.getElementById('workoutPlaceholder').innerHTML = "";
+    document.getElementById('mainBody').innerHTML = "";
     var nextButton = document.createElement('button');
+    nextButton.className = 'nextButton';
     nextButton.innerHTML = 'Next';
-    document.body.appendChild(nextButton);
+    document.getElementById('workoutPlaceholder').appendChild(nextButton);
     nextButton.addEventListener("click", nextExercise);
 }
 
@@ -37,7 +38,7 @@ function nextExercise () {
     if (index > workout.length - 1) {
         index = 0;
     }
-    document.getElementById('workoutPlaceholder').innerHTML = workout[index];
+    document.getElementById('mainBody').innerHTML = workout[index];
 }
 
 // save exercises and display to user
@@ -74,14 +75,14 @@ function submitExercises () {
     // Clear the screen to move to next part
     // Ceed to eventually not clear but instead move to another page
     // so the person can go back and change the options if they want
-    document.getElementById("workoutPlaceholder").innerHTML = "";
+    document.getElementById("mainBody").innerHTML = "";
 
     // create ready buttton
     var readyButton = document.createElement('button');
     readyButton.innerHTML = 'Start Workout';
     readyButton.className = 'readyButton';
     readyButton.addEventListener("click", startWorkout);
-    document.getElementById('workoutPlaceholder').appendChild(readyButton);
+    document.getElementById('mainBody').appendChild(readyButton);
 }
 
 
