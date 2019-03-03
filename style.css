@@ -21,7 +21,7 @@ i:hover {
     float: left;
 }
 
-#workoutPlaceholder {
+#workoutPlaceholder, #workoutBuilder {
     text-align: center;
 }
 

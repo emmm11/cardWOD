@@ -75,7 +75,7 @@ function submitExercises () {
     // Clear the screen to move to next part
     // Ceed to eventually not clear but instead move to another page
     // so the person can go back and change the options if they want
-    document.getElementById("mainBody").innerHTML = "";
+    document.getElementById("workoutBuilder").innerHTML = "";
 
     // create ready buttton
     var readyButton = document.createElement('button');
